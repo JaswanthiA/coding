@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class Automorphic
+{
+public static void main(String args[])
+  {
+	int n,r;
+	System.out.println("Enter n number");
+	Scanner sc=new Scanner(System.in);
+	n=sc.nextInt();
+	while(n!=0)
+     	{
+		r=n%100;
+		if(r==n)
+      		{
+		System.out.println("It's an Automorphic");
+                                 
+	        }
+		else
+		 {
+	System.out.println("It's not Automorphic"); 
+         }
+                                break; 
+       }
+   }
+}
